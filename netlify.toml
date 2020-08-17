@@ -5,7 +5,7 @@
 [[plugins]]
   package = "@helloample/netlify-plugin-replace"
 
-[context.master.environment]
+[context.main.environment]
   SITE_TITLE = "Netlify Plugin Replace Demo"
-  AMPLE_URL = "https://ample.co"
+  APP_ENDPOINT = "https://ample.co"
   REDIR_ROLE = "admin"
