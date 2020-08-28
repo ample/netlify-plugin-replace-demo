@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@helloample/netlify-plugin-replace@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@helloample/netlify-plugin-replace/-/netlify-plugin-replace-1.1.1.tgz#d157f0396735ee8d161b43185f154e757165e05f"
-  integrity sha512-qlVuukzkXvth8qAQFe6dng0v7hYC+Fec6JRxEkTJgybaLdgBXS6spOfBUyQRGWTuUuMI6saLYmK2HLexli6OtQ==
+"@helloample/netlify-plugin-replace@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@helloample/netlify-plugin-replace/-/netlify-plugin-replace-1.1.2.tgz#4a7fcdcd9425f19f1cdbb1133199ae94147432d1"
+  integrity sha512-Kg7kWaArDEaNtpjfx+8SaLTMkrEP1Csmh14DIPfVqKPILlLEBZKjEV/uSg3lvzmfG0j+s4zabYAA1aqkme6QUQ==
   dependencies:
     find-in-files "^0.5.0"
     fs-extra "^9.0.1"
