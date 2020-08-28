@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>${SITE_TITLE}</title>
+    <title>${env:SITE_TITLE}</title>
   </head>
   <body>
     <p>
@@ -14,9 +14,9 @@
       auctor. Maecenas sed diam eget risus varius blandit sit amet non magna.
     </p>
     <p>
-      Etiam porta sem <a href="${APP_ENDPOINT}">magna mollis</a> euismod. Cras
-      mattis consectetur purus sit amet fermentum. Sed posuere consectetur est
-      at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Etiam porta sem <a href="${env:APP_ENDPOINT}">magna mollis</a> euismod.
+      Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur
+      est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Maecenas faucibus mollis interdum. Maecenas faucibus mollis interdum.
       Nullam id dolor id nibh ultricies vehicula ut id elit.
     </p>
@@ -31,10 +31,10 @@
       Donec ullamcorper nulla non metus auctor fringilla. Fusce dapibus, tellus
       ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
       justo sit amet risus. Praesent commodo cursus magna, vel
-      <a href="${APP_ENDPOINT}">magna mollis</a> nisl consectetur et. Cum sociis
-      natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Sed posuere consectetur est at lobortis. Cras justo odio, dapibus ac
-      facilisis in, egestas eget quam.
+      <a href="${env:APP_ENDPOINT}">magna mollis</a> nisl consectetur et. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Sed posuere consectetur est at lobortis. Cras justo odio,
+      dapibus ac facilisis in, egestas eget quam.
     </p>
   </body>
 </html>
